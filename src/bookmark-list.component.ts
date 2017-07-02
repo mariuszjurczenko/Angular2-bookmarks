@@ -7,7 +7,7 @@ import { Component, Input } from '@angular/core';
     <table class="table table-striped">
       <tr *ngFor="let bookmark of bookmarks">
         <td>
-          <a [href]="bookmark.url" target="_blank">
+          <a [href]="bookmark.Url" target="_blank">
             {{bookmark.Title}}
           </a>
         </td>
